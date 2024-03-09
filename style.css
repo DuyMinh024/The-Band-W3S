@@ -67,7 +67,6 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 /* Nav */
 #nav {
@@ -187,7 +186,7 @@ html {
     text-align: center;
     font-size: 15px;
     font-style: italic;
-    margin-bottom: 15px;
+    margin-bottom: 32px;
     margin-top: 25px;
     opacity: 0.6;
  }
@@ -223,7 +222,7 @@ html {
  }
 .tour .content-section {
     color: white;
-    margin-top: 64px;
+    margin-top: 32px;
 }
 .tour .ticket {
    background: white;
@@ -256,7 +255,7 @@ html {
 }
 /* Places */
 .place-list{
-    margin-top: 32px;
+    margin-top: 16px;
     padding-bottom: 96px;
 }
 
@@ -450,9 +449,12 @@ label.modal-label {
 
 /* Mobile */
 @media (max-width: 739px) {
-    /* #header {
+    #header {
         overflow: hidden;
-    } */
+    }
+    #header .search-btn {
+        display: none;
+    }
     #nav li {
         display: block;
     }
@@ -465,7 +467,37 @@ label.modal-label {
     #nav {
         display: block;
     }
-    #header .search-btn {
-        display: none;
+    #nav .subnav {
+        position: initial;
+    }
+    #nav .subnav a{
+        background-color: #333;
+        color: #fff;
+        padding: 5px 40px;
+    }
+    .content .list-member {
+        width: 100%;
+        margin-top: 16px;   
+    }
+    .content .list-member .member-img {
+        width:60%;
+    }
+    .col-3 {
+        width:100%;
+    }
+    .member-list {
+        margin-top: 16px;
+    }
+    .slider .text-content {
+        display:none;
+    }
+    .contact-content .col-2 {
+        width:100%;
+    }
+    .modal-container {
+        margin: 0px 8px;
+    }
+    .contact-info {
+        margin:0 0 16px;
     }
 }
