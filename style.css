@@ -400,6 +400,14 @@ label.modal-label {
     width: 30px;
     display: inline-block;
 }
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
 }
@@ -446,6 +454,29 @@ label.modal-label {
 
 
 /*  Responsive with css */
+
+/* Tablet and mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 17px 17px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    .footer .social-list {
+        font-size: 24px;
+        margin: 0 8px;
+    } .footer .social-list a {
+        margin: 0 8px;
+    }
+    .footer .cpr a {
+        padding: 12px 0px;
+        display: inline-block;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+}
 
 /* Mobile */
 @media (max-width: 739px) {
@@ -498,6 +529,12 @@ label.modal-label {
         margin: 0px 8px;
     }
     .contact-info {
-        margin:0 0 16px;
+        margin:0 0 24px;
+    }
+    .contact-form .row .col-2 {
+        margin-top: 8px;
+    }
+    .s-full-width {
+        width: 100%;
     }
 }
