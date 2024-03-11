@@ -156,6 +156,7 @@ html {
     bottom: 24px;
     text-align: center;
     width: 100%;
+    text-shadow: 0 0 2px black;
 }
 .slider .text-heading {
     font-weight: 500px;
@@ -456,7 +457,7 @@ label.modal-label {
 /*  Responsive with css */
 
 /* Tablet and mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em ) {
     .btn {
         padding: 17px 17px;
     }
@@ -479,7 +480,7 @@ label.modal-label {
 }
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     #header {
         overflow: hidden;
     }
